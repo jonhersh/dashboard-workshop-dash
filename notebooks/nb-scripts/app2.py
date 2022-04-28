@@ -2,8 +2,8 @@
 import pandas as pd
 import plotly.express as px
 import dash
-import dash as dcc
-import dash as html
+from dash import dcc
+from dash import html
 from dash.dependencies import Input, Output
 
 def graph_region(region_df, graph_type: str, dimension1: str, dimension2: str):
